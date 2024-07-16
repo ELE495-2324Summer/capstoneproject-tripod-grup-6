@@ -15,9 +15,15 @@ Provide a brief overview of the project, its purpose, and what problem it aims t
 ## Features
 List the key features and functionalities of the project.
 - Hardware: The hardware components used (should be listed with links)
-- Operating System and packages
-- Applications 
-- Services 
+- Applications
+  - Operating System and packages
+  - Python 3.x
+  - JetBot SDK
+  - OpenCV
+  - Flask
+  - Torch
+- Services
+  -Android Mobile App
 
 ## Installation
 Describe the steps required to install and set up the project. Include any prerequisites, dependencies, and commands needed to get the project running.
