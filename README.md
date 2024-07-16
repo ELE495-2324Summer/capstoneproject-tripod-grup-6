@@ -26,6 +26,7 @@ Describe the steps required to install and set up the project. Include any prere
 # Example commands
 git clone https://github.com/username/project-name.git
 cd project-name
+python3 main.py
 ```
 
 ## Usage
