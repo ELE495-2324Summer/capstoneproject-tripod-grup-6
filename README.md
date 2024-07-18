@@ -11,10 +11,12 @@
 
 ## Introduction
 Provide a brief overview of the project, its purpose, and what problem it aims to solve.
+The aim of this project is to receive a license plate number sent by the mobile application by Jetbot via an API and park it autonomously in the license plate area on the platform. While carrying out the project, software such as image processing, artificial intelligence and mobile development were used.
 
 ## Features
 List the key features and functionalities of the project.
 - Hardware: The hardware components used (should be listed with links)
+  - Jetbot AI Kit (https://www.waveshare.com/product/jetbot-ai-kit.htm) 
 - Applications
   - Operating System and packages
   - Python 3.x
@@ -26,14 +28,20 @@ List the key features and functionalities of the project.
   -Android Mobile App
 
 ## Installation
-Describe the steps required to install and set up the project. Include any prerequisites, dependencies, and commands needed to get the project running.
+!! You must have minimum nvidia jetson nano jetpack:jp41 version for installation !!
 
+Commands you need to execute to start the python application.
+you need to execute this commands in the min jp41 jetbot docker container
 ```bash
-# Example commands
+#  commands
 git clone https://github.com/username/project-name.git
 cd project-name
 python3 main.py
 ```
+after this bash commands flask server will be running on the jetbot.
+
+For sending plate number to flask server we will use an Android mobile application. You can use APK directly or you can modify the app code and build on Android Studio IDE.
+
 
 ## Usage
 Provide instructions and examples on how to use the project. Include code snippets or screenshots where applicable.
