@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Video Demo](#usage)
 - [Screenshots](#screenshots)
 - [Acknowledgements](#acknowledgements)
 
@@ -44,10 +44,15 @@ For sending plate number to flask server we will use an Android mobile applicati
 
 
 ## Usage
-Provide instructions and examples on how to use the project. Include code snippets or screenshots where applicable.
+Run the python script from jetbot and send parking command with number plate from mobile app.
+![WhatsApp Image 2024-07-16 at 03 44 06](https://github.com/user-attachments/assets/7a4164fd-1abc-4eaf-ac27-87316e012eb2)
+![WhatsApp Image 2024-07-16 at 03 44 05](https://github.com/user-attachments/assets/39982023-6cb7-459f-9d17-6e9c565d4ab5)
 
-## Screenshots
-Include screenshots of the project in action to give a visual representation of its functionality. You can also add videos of running project to YouTube and give a reference to it here. 
+
+## Video Demo
+you can find a video that shows jetbot parking to number 4 via mobile application command.
+https://www.youtube.com/watch?v=vKzyPDBvfdU
+
 
 ## Acknowledgements
 Give credit to those who have contributed to the project or provided inspiration. Include links to any resources or tools used in the project.
