@@ -37,11 +37,12 @@ Commands you need to execute to start the python application.
 you need to execute this commands in the min jp41 jetbot docker container
 ```bash
 #  commands
-git clone https://github.com/username/project-name.git
-cd project-name
+git clone https://github.com/ELE495-2324Summer/capstoneproject-tripod-grup-6/tree/main
+cd capstoneproject-tripod-grup-6
+cd code
 python3 main.py
 ```
-after this bash commands flask server will be running on the jetbot.
+after this bash commands flask server will be running on the jetbot with jetbot's ip
 
 For sending plate number to flask server we will use an Android mobile application. You can use APK directly or you can modify the app code and build on Android Studio IDE.
 
