@@ -13,6 +13,9 @@
 Provide a brief overview of the project, its purpose, and what problem it aims to solve.
 The aim of this project is to receive a license plate number sent by the mobile application by Jetbot via an API and park it autonomously in the license plate area on the platform. While carrying out the project, software such as image processing, artificial intelligence and mobile development were used.
 
+![S8374b6d2789f4a61bca6abbf57b5ea3dK jpg_640x640Q90 jpg_](https://github.com/user-attachments/assets/af9d4acc-5c85-47eb-8595-96dfc061a3b9)
+
+
 ## Features
 List the key features and functionalities of the project.
 - Hardware: The hardware components used (should be listed with links)
