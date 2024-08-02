@@ -10,7 +10,6 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-
 This project involves creating an autonomous parking vehicle using a JetBot equipped with a Jetson Nano. The JetBot will independently locate its assigned parking spot and park there without crossing any red lines on the platform. For every violation, it will send a penalty point to a mobile app that keeps track of the total penalty points. Each group is given a specific parking space identified by a license plate number. The JetBot starts from a random position and must park within three minutes without touching the red lines. After parking, a completion notification will be sent to the mobile app, and if no parking space is available, the system will inform the app. While carrying out the project, software such as image processing, artificial intelligence and mobile development were used.
 
 ![S8374b6d2789f4a61bca6abbf57b5ea3dK jpg_640x640Q90 jpg_](https://github.com/user-attachments/assets/af9d4acc-5c85-47eb-8595-96dfc061a3b9)
@@ -19,9 +18,9 @@ This project involves creating an autonomous parking vehicle using a JetBot equi
 ## Features
 -Hardware
   - Jetbot AI Kit     (https://www.waveshare.com/product/jetbot-ai-kit.htm)
-  - MicroSD Card      (https://www.westerndigital.com/en-in/products/memory-cards/sandisk-extreme-pro-uhs-i-microsd?sku=SDSQXCD-128G-GN6MA)
-  - 3 x 18650 Battery (https://robolinkmarket.com/37v-2600mah-18650-li-ion-sarjli-pil-basli)
-  - Wifi Adapter      (https://www.amazon.com.tr/dp/B008IFXQFU/ref=asc_df_B008IFXQFU1715591040000/?tag=akakcetr-21&creative=380333&creativeASIN=B008IFXQFU&linkCode=asn)
+  - MicroSD Card      (https://shorturl.at/YlJxm)
+  - 3 x 18650 Battery (https://shorturl.at/T4GhL)
+  - Wifi Adapter      (https://shorturl.at/vJibp)
 - Applications
   - Operating System and packages
   - Python 3.x
