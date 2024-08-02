@@ -10,16 +10,17 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Provide a brief overview of the project, its purpose, and what problem it aims to solve.
-The aim of this project is to receive a license plate number sent by the mobile application by Jetbot via an API and park it autonomously in the license plate area on the platform. While carrying out the project, software such as image processing, artificial intelligence and mobile development were used.
+This project involves creating an autonomous parking vehicle using a JetBot equipped with a Jetson Nano. The JetBot will independently locate its assigned parking spot and park there without crossing any red lines on the platform. For every violation, it will send a penalty point to a mobile app that keeps track of the total penalty points. Each group is given a specific parking space identified by a license plate number. The JetBot starts from a random position and must park within three minutes without touching the red lines. After parking, a completion notification will be sent to the mobile app, and if no parking space is available, the system will inform the app. While carrying out the project, software such as image processing, artificial intelligence and mobile development were used.
 
 ![S8374b6d2789f4a61bca6abbf57b5ea3dK jpg_640x640Q90 jpg_](https://github.com/user-attachments/assets/af9d4acc-5c85-47eb-8595-96dfc061a3b9)
 
 
 ## Features
-List the key features and functionalities of the project.
-- Hardware: The hardware components used (should be listed with links)
-  - Jetbot AI Kit (https://www.waveshare.com/product/jetbot-ai-kit.htm) 
+-Hardware
+  - Jetbot AI Kit     (https://www.waveshare.com/product/jetbot-ai-kit.htm)
+  - MicroSD Card      (https://shorturl.at/YlJxm)
+  - 3 x 18650 Battery (https://shorturl.at/T4GhL)
+  - Wifi Adapter      (https://shorturl.at/vJibp)
 - Applications
   - Operating System and packages
   - Python 3.x
@@ -48,18 +49,22 @@ For sending plate number to flask server we will use an Android mobile applicati
 
 
 ## Usage
-Run the python script from jetbot and send parking command with number plate from mobile app.
+Run the python script from jetbot and send parking command with number plate from mobile app. Your phone and Jetbot should be in the same network!
 ![WhatsApp Image 2024-07-16 at 03 44 06](https://github.com/user-attachments/assets/7a4164fd-1abc-4eaf-ac27-87316e012eb2)
 ![WhatsApp Image 2024-07-16 at 03 44 05](https://github.com/user-attachments/assets/39982023-6cb7-459f-9d17-6e9c565d4ab5)
 
 
 ## Video Demo
-you can find a video that shows jetbot parking to number 4 via mobile application command.
+You can find a video that shows jetbot parking to number 4 via mobile application command.
 https://www.youtube.com/watch?v=vKzyPDBvfdU
 
 
 ## Acknowledgements
 Give credit to those who have contributed to the project or provided inspiration. Include links to any resources or tools used in the project.
 
-[Contributor 1](https://github.com/user1)
-[Resource or Tool](https://www.nvidia.com)
+[Contributor 1](https://github.com/cangerek06)
+[Contributor 2](https://github.com/berkehankose)
+[Resource 1](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit)
+[Resource 2](https://www.waveshare.com/wiki/JetBot_2GB_AI_Kit)
+[Resource 3](https://jetbot.org/master/index.html)
+[Resource 4](https://developer.nvidia.com/embedded/learn/jetson-nano-2gb-devkit-user-guide)
